@@ -1,0 +1,55 @@
+main{
+    background-color: #fca6c9;
+    color: #3e3e3e;
+    
+}
+
+li{
+    color: black;
+    font-weight: bold;
+    font: arial;
+}
+
+h1{
+    color: white;
+    font: ;
+    
+}
+
+body{
+    text-align: center;
+    background-color: #fca6c9;
+}
+
+footer{
+    font: ;
+    color: black;
+}
+
+#russell{
+    width: 200px;
+}
+
+#russell figure{
+    text-align:center;
+}
+
+h2{
+    color: white;
+    margin: 35px;
+    font: ;
+    
+}
+
+h1:hover {
+    color:black;
+}
+
+.whitetext{
+    color: white;
+}
+
+.list{
+    text-align: left;
+    display: inline-block;
+}
