@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Roboto:wght@300;500&display=swap');
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif;
 main{
     background-color: #fca6c9;
     color: #3e3e3e;
@@ -6,14 +9,14 @@ main{
 
 li{
     color: black;
-    font-weight: bold;
-    font: arial;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-weight: 500;
 }
 
 h1{
     color: white;
     font: ;
-    
 }
 
 body{
@@ -38,7 +41,8 @@ h2{
     color: white;
     margin: 35px;
     font: ;
-    
+    font-size: 2.2em;
+    font-family: 'Noto Serif', serif;
 }
 
 h1:hover {
