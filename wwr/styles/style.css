@@ -27,6 +27,9 @@ main section{
 
 #background{
     height: 725px;
+    background-color: #826251;
+    border-style: solid;
+    border-color: #7ae7c7;
 }
 
 body{
@@ -71,10 +74,13 @@ h4{
 
 footer{
     color:rgb(255, 255, 255);
+    background-color: #036d19;
+    border-style: solid;
+    border-color: #7ae7c7;
 }
 
 footer a{
-    color:white;
+    color:white;;
 }
 
 footer a:hover{
