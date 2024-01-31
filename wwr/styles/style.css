@@ -65,8 +65,11 @@ h4{
     text-decoration: none;
 }
 
-.msg h2{
+.msg{
+    background-color: #036d19;
     color: white;
+    border: #7ae7c7;
+    border-style: solid;
 }
 
 .msg p{
