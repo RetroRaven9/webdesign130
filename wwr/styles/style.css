@@ -58,6 +58,7 @@ h4{
 .book{
     color:white;
     text-decoration: none;
+    text-align: center;
 }
 .join{
     color: rgb(255, 255, 255);
@@ -101,4 +102,12 @@ footer p a:hover{
 }
 #hero-img{
     width: 100%;
+}
+
+.text{
+    color:aliceblue;
+}
+
+.button-box{
+    text-align: center;
 }
