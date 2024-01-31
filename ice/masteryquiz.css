@@ -1,0 +1,47 @@
+body{
+    font-size: 2em;
+}
+
+h1{
+    font: 20px;
+}
+
+.paragraph1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.paragraph2{
+    background-color:  blue;
+    font-size: 3em;
+}
+
+img{
+    border-style: solid;
+    background-color: grey;
+    width: 350px;
+    border-radius: 10px;
+    margin: 50px;
+    border-color: black;
+    border-radius: 35px;
+    margin-left: 14em;
+}
+
+
+.boarder{
+    background: grey;
+    border-style: solid;
+    border-color:black;
+    border-radius: 32px;
+}
+
+.title{
+    color: orange;
+}
+
+.text{
+    color:purple;
+}
