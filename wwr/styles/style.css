@@ -31,9 +31,7 @@ nav a{
     color:white;
 }
 
-.botton-box{
-    text-align: center;
-}
+
 
 main section{
     text-align: center;
@@ -121,6 +119,7 @@ h4{
     color: white;
     font-size: .8em;
     padding-bottom: 15px;
+    
 }
 
 footer{
@@ -178,13 +177,12 @@ footer p a:hover{
     border-radius: 5px;
     box-shadow: 5px 5px 10px #6f7364;
     
+    
 }
 .button-box:hover{
     background-color: #7ae7c7;
     color: #002a32;
     border-color: #002a32;
-    
-
 }
 
 .xlogo{
