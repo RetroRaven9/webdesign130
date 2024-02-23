@@ -77,9 +77,11 @@ nav a:hover {
 
 .home-title{
     color: white;
+    text-align: center;
     font-family: 'noto serif', serif;
     font-size: 2em;
     margin-top: 10px;
+    
 }
 
 h4{
@@ -164,7 +166,25 @@ footer p a:hover{
 }
 
 .button-box{
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #002a32;
+    border-style: solid;
+    border-color: #7ae7c7;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+.button-box:hover{
+    background-color: #7ae7c7;
+    color: #002a32;
+    border-color: #002a32;
+    
+
 }
 
 .xlogo{
