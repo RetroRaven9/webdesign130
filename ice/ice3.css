@@ -1,0 +1,80 @@
+img {
+    margin: auto;
+    width: 100%;
+    grid-column: 1/4;
+}
+
+.week {
+    grid-column: 1/4;
+    color: #2e5a88;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+h1 {
+    margin-top: 0;
+    grid-column: 1/4;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    grid-column: 1/4;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+p {
+   margin-top: 0;
+}
+
+.bluebox1 {
+    background-color: #2e5a88;
+    grid-column: 1/2;
+    color: white;
+    font-size: 20px;
+    
+    
+    
+}
+
+.bluebox2 {
+    background-color: #2e5a88;
+    grid-column: 2/3;
+    color: white;
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.bluebox3 {
+    background-color: #2e5a88;
+    grid-column: 3/4;
+    color: white;
+    font-size: 20px;
+}
+
+section {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: white; 
+    border-style:0;
+
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+
+body{
+    background-color: rgb(45, 45, 45) ;
+}
