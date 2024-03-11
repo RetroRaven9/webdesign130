@@ -11,3 +11,16 @@
 .moveDown {
     margin-top: 3em;
 }
+
+header{
+    background-color:#036d19;
+    border-style: solid;
+    border-color: #7ae7c7;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a:hover {
+    background-color:white;
+    color:black;
+}
