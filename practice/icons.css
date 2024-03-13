@@ -1,0 +1,49 @@
+.spinner {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.spinner .bar {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  
+.spinner .bar1 {
+    top: 0;
+    left: 0;
+  }
+  
+.spinner .bar2 {
+    top: 0;
+    right: 0;
+  }
+  
+.spinner .bar3 {
+    bottom: 0;
+    right: 0;
+  }
+  
+.spinner .bar4 {
+    bottom: 0;
+    left: 0;
+  }
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.spinner .bar {
+    animation: spin 1s linear infinite;
+  }
