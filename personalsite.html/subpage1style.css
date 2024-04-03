@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color:aliceblue
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
