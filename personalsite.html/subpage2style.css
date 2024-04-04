@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    text-align: center;
+    
+
+}
+
+img{
+    width: 450px;
+}
+
+header{
+    padding-bottom: 20px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+footer{
+   
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:silver
+}
+a:hover{
+    color:black;
+}
+
+
+#gauge{
+    float: left;
+    
+    padding-top: 0px;
+    width: 200px;
+
+}
+
+.button{
+    background-color: #2C60E1;
+    border-color: #7ae7c7;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#6EDC42;
+    color: black;
+}
