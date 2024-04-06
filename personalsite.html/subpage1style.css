@@ -5,7 +5,7 @@ header{
 }
 body{
     background-color: black;
-    color:aliceblue
+    color: silver;
 
 }
 
@@ -19,7 +19,7 @@ section{
     margin: 0 auto;
     border-style: solid;
     border-radius: 30px;
-    border-color: grey;
+    border-color: silver;
 }
 img{
     width: 100%;
@@ -50,6 +50,7 @@ footer{
     padding-top: 0px;
     width: 200px;
 }
+
 a{
     background-color: #2C60E1;
     border-radius: 5px;
@@ -73,3 +74,4 @@ a:hover {
 .logo{
     width: 15px;
 }
+
