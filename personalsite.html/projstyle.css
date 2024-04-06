@@ -15,7 +15,11 @@ body
     width: 800px;
     
 }
-
+header{
+  padding-bottom: 20px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 
@@ -122,40 +126,34 @@ header
    padding-top: 20px;
 }
 
-a {
-    text-decoration: none;
-    color:silver
-}
-a:hover{
-    color:black;
-}
+
 
 
 #gauge{
-    float: left;
-    margin-right: 10px;
+    
     padding-top: 0px;
-    width: 300px;
+    width: 200px;
 
 }
 
-.button{
-    background-color: #2C60E1;
-    border-color: #7ae7c7;
-    border-radius: 5px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+a{
+  background-color: #2C60E1;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
-.button:hover{
-    background-color:#6EDC42;
-    color: black;
+a:hover {
+  background-color:#6EDC42;
+  color: black;
+
 }
 
 footer{
@@ -169,3 +167,6 @@ footer{
     padding-bottom: 20px;
 }
 
+.logo{
+    width: 15px;
+}

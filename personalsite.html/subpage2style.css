@@ -12,6 +12,8 @@ img{
 
 header{
     padding-bottom: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
@@ -31,26 +33,18 @@ footer{
     padding-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-    color:silver
-}
-a:hover{
-    color:black;
-}
+
 
 
 #gauge{
-    float: left;
     
     padding-top: 0px;
     width: 200px;
 
 }
 
-.button{
+a{
     background-color: #2C60E1;
-    border-color: #7ae7c7;
     border-radius: 5px;
     color: white;
     padding: 15px 32px;
@@ -60,9 +54,15 @@ a:hover{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
-.button:hover{
+a:hover {
     background-color:#6EDC42;
     color: black;
+
+}
+
+.logo{
+    width: 15px;
 }
